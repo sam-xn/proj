@@ -42,6 +42,7 @@ import Invoices from './pages/Invoices';
 
 import TestsDB from './pages/Tests-DB';
 import TestsFD from './pages/Tests-FD';
+import TestsLib from './pages/Tests-Lib';
 
 export default function App() {
     const isDarkMode = useColorScheme() === 'dark';
@@ -60,6 +61,7 @@ export default function App() {
 
                     <Route path="/tests-db" element={<TestsDB />} />
                     <Route path="/tests-fd" element={<TestsFD />} />
+                    <Route path="/tests-lib" element={<TestsLib />} />
                 </Routes>
             </View>
         </NativeRouter>
